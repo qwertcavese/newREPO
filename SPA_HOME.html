@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-image: url(infinity-world-8-panel-photo-of-solar-system-planets-wallpaper-thumb.jpg);
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(247, 251, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.header{
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 35px 20px;
+    background: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.header h2 {
+    padding-bottom : 30px;
+    text-align: center;
+    color: aliceblue;
+}
+.text{
+    margin: 15px;
+    align-items: center;
+    color: aliceblue;
+}
+#btn{
+    border-radius: 7px;
+margin-left: 50px;
+margin-top: 10px;
+padding: 4px 70px
+}
+
+button :hover{
+    color: rgb(255, 115, 0);
+}
+#user_name{
+    padding: 3px;
+    border-radius: 3px;
+}
+
+    </style>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="header">
+                <h2>CONTACT US</h2>
+            <form class="form" id="form" action="user.html">
+                <div class="text">
+                    <label>NAME : </label>
+                    <input type="text" id="user_name" placeholder="enter your name" autocomplete="off" required>
+                 </div>
+
+                 <div class="text">
+                    <label>E-MAIL : </label>
+                    <input type="text" id="user_name" placeholder="enter your e-mail" autocomplete="off" required>
+                 </div>
+
+                 <div class="text">
+                    <label> NUMBER : </label>
+                    <input type="text" id="user_name" placeholder="enter your number" autocomplete="off" required>
+                 </div>
+                 <button id="btn">SUBMIT</button>
+                
+    
+              
+                </div>
+
+    
+            </form>
+    
+        </div>
+    
+    </body>
+    
+    </html>
+        
+
+
+    </div>    
+</body>
+</html>
